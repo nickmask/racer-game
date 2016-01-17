@@ -17,7 +17,7 @@ body {
 }
 
 .racer_table td.active {
-  background-image: url("/img/p1.png");
+  background-image: url("img/p1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 60%;

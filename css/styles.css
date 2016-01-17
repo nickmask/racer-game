@@ -1,13 +1,63 @@
+body {
+	background-color: blue;
+}
+
+.racer_table {
+	width: 100%;
+	height: 100%;
+	 table-layout: fixed;
+}
+
+
 .racer_table td {
   background-color: green;
-  height: 150px;
-  width: 150px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .racer_table td.active {
   background-image: url("/img/p1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+
 }
 
 .racer_table td {
-	  border: 1px red solid;
+}
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+.reset {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#resetButton {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: green;
+  border: 0;
+  border-bottom: 2px solid #006000;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #006000;
+  box-shadow: inset 0 -2px #006000;
+}
+#resetButton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

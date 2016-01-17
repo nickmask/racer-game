@@ -33,6 +33,11 @@ $('document').ready(function() {    //code will only run after the page has full
     }
   });  
 
+  $("button#resetButton").click(function() {
+      alert("OK, I'm resetting");
+      location.reload();
+    });
+
 });
 
 
